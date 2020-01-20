@@ -35,7 +35,7 @@
             // 
             // Inser_Text_Box
             // 
-            this.Inser_Text_Box.Location = new System.Drawing.Point(22, 53);
+            this.Inser_Text_Box.Location = new System.Drawing.Point(22, 87);
             this.Inser_Text_Box.Multiline = true;
             this.Inser_Text_Box.Name = "Inser_Text_Box";
             this.Inser_Text_Box.Size = new System.Drawing.Size(354, 300);
@@ -46,7 +46,7 @@
             // 
             this.Close_Enter_Note_Box.BackColor = System.Drawing.Color.Red;
             this.Close_Enter_Note_Box.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Close_Enter_Note_Box.Location = new System.Drawing.Point(357, 35);
+            this.Close_Enter_Note_Box.Location = new System.Drawing.Point(379, 0);
             this.Close_Enter_Note_Box.Name = "Close_Enter_Note_Box";
             this.Close_Enter_Note_Box.Size = new System.Drawing.Size(19, 19);
             this.Close_Enter_Note_Box.TabIndex = 1;
@@ -61,6 +61,7 @@
             this.Expand_Colapse_Note.Size = new System.Drawing.Size(179, 34);
             this.Expand_Colapse_Note.TabIndex = 2;
             this.Expand_Colapse_Note.UseVisualStyleBackColor = true;
+            this.Expand_Colapse_Note.Click += new System.EventHandler(this.Expand_Colapse_Note_Click);
             // 
             // FishyNote
             // 
