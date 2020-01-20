@@ -41,6 +41,7 @@
             this.Inser_Text_Box.Size = new System.Drawing.Size(354, 300);
             this.Inser_Text_Box.TabIndex = 0;
             this.Inser_Text_Box.Text = "Enter your note text here...";
+            this.Inser_Text_Box.Click += new System.EventHandler(this.textBox1_Click);
             // 
             // Close_Enter_Note_Box
             // 

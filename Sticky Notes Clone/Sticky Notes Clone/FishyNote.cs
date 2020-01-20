@@ -31,11 +31,20 @@ namespace Sticky_Notes_Clone
 
         }
 
+
+        private void textBox1_Click(object sender, EventArgs e)
+        {
+            Inser_Text_Box.Text = "";
+        }
+
+
+        //closenote pop-up
         private void Close_Enter_Note_Box_Click(object sender, EventArgs e)
         {
             this.Dispose();
         }
 
+        //expand and shrink note box
         private void Expand_Colapse_Note_Click(object sender, EventArgs e)
         {
             if(_expand)
